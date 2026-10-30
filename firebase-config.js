@@ -1,10 +1,9 @@
-// Colle ici la configuration Firebase (Project settings > Your apps > Config).
-// Tant que apiKey est vide, l'appli reste en mode local (aucune synchro).
+// Configuration Firebase du projet « vrai-restant » (publique par conception : l'accès est protégé par les règles Firestore).
 window.FIREBASE_CONFIG = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyA-9uA-2tlnfe7OKxgOdRRrizlgs6yBaIQ",
+  authDomain: "vrai-restant.firebaseapp.com",
+  projectId: "vrai-restant",
+  storageBucket: "vrai-restant.firebasestorage.app",
+  messagingSenderId: "108008793078",
+  appId: "1:108008793078:web:c461e7603ff4aaad0c5dd7"
 };
